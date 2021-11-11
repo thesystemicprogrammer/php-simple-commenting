@@ -70,7 +70,7 @@ return [
         'slack' => [
             'driver' => 'slack',
             'url' => env('LOG_SLACK_WEBHOOK_URL'),
-            'username' => 'php-simple-pageview-stats',
+            'username' => env('APP_NAME'),
             'emoji' => ':dart:',
             'level' => env('LOG_LEVEL', 'notice'),
         ],

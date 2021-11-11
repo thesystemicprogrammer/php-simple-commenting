@@ -13,6 +13,14 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+$router->group(['prefix' => 'api/public'], function () use ($router) {
+    $router->post('/comment', 'CommentController@createComment');
+    $router->get('/comment/approve/{approval_hash}', 'CommentController@approveWithHash');
+});
+
+$router->group(['prefix' => 'api/admin', 'middleware' => 'auth'], function () use ($router) {
+    $router->get('/comment/{pageHash}', 'CommentController@getComments');
+    $router->get('/comment/approve/{comment_id}', 'CommentController@approve');
+    $router->get('/comment/decline/{comment_id}', 'CommentController@decline');
+    $router->delete('/comment', 'CommentController@deleteComment');
 });

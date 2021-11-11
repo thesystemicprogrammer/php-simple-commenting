@@ -4,6 +4,8 @@ Homestead.json
 Homestead.yaml
 .env
 .env_prod
+.env_local
 .phpunit.result.cache
 /.vscode
 /tests/reports
+deploy.sh

@@ -5,15 +5,21 @@ from a blog.
 
 This version is pre-alpha stage and not yet usable! 
 
+## Description
+
+tbd
+
 ## Official Documentation
 
 tbd
 
-## Functionality
+## Get started
 
-tbd
+### Dependencies
 
-## Setup
+### Installation
+
+### Basic usage
 
 tbd
 
