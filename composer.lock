@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3819242e6e17bfc6aea38a9c998e3980",
+    "content-hash": "8cd53a5799993d12c78dbdce6ac9c856",
     "packages": [
         {
             "name": "brick/math",
@@ -2064,16 +2064,16 @@
         },
         {
             "name": "jdenticon/jdenticon",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmester/jdenticon-php.git",
-                "reference": "03ac5eb042295f744b4a44c544601b9df47d454e"
+                "reference": "994ee07293fb978f983393ffcb2c0250592a6ac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmester/jdenticon-php/zipball/03ac5eb042295f744b4a44c544601b9df47d454e",
-                "reference": "03ac5eb042295f744b4a44c544601b9df47d454e",
+                "url": "https://api.github.com/repos/dmester/jdenticon-php/zipball/994ee07293fb978f983393ffcb2c0250592a6ac4",
+                "reference": "994ee07293fb978f983393ffcb2c0250592a6ac4",
                 "shasum": ""
             },
             "require": {
@@ -2109,7 +2109,7 @@
                 "issues": "https://github.com/dmester/jdenticon-php/issues",
                 "source": "https://github.com/dmester/jdenticon-php"
             },
-            "time": "2019-11-02T11:39:20+00:00"
+            "time": "2022-07-02T11:03:15+00:00"
         },
         {
             "name": "laravel/lumen-framework",
@@ -7747,5 +7747,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
