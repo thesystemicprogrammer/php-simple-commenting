@@ -2064,16 +2064,16 @@
         },
         {
             "name": "jdenticon/jdenticon",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmester/jdenticon-php.git",
-                "reference": "03ac5eb042295f744b4a44c544601b9df47d454e"
+                "reference": "cabb7a44c413c318392a341c5d3ca30fcdd57a6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmester/jdenticon-php/zipball/03ac5eb042295f744b4a44c544601b9df47d454e",
-                "reference": "03ac5eb042295f744b4a44c544601b9df47d454e",
+                "url": "https://api.github.com/repos/dmester/jdenticon-php/zipball/cabb7a44c413c318392a341c5d3ca30fcdd57a6f",
+                "reference": "cabb7a44c413c318392a341c5d3ca30fcdd57a6f",
                 "shasum": ""
             },
             "require": {
@@ -2109,7 +2109,7 @@
                 "issues": "https://github.com/dmester/jdenticon-php/issues",
                 "source": "https://github.com/dmester/jdenticon-php"
             },
-            "time": "2019-11-02T11:39:20+00:00"
+            "time": "2022-10-30T17:15:02+00:00"
         },
         {
             "name": "laravel/lumen-framework",
@@ -7747,5 +7747,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
